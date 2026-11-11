@@ -1,0 +1,44 @@
+Arduino IDE
+
+*.ino.eep
+*.elf
+*.hex
+*.map
+*.o
+*.a
+*.d
+build/
+.cache/
+.vscode/
+.idea/
+
+Python
+
+pycache/
+*.py[cod]
+.venv/
+venv/
+.env
+
+FPGA generated files
+
+fpga/build/
+*.jed
+*.svf
+*.log
+*.tmp
+
+Operating system
+
+.DS_Store
+Thumbs.db
+
+Temporary files
+
+*.bak
+*.swp
+*~
+
+Keep important FPGA bitstreams if included in the project
+
+Do not ignore *.bin globally.
